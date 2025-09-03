@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # URL of the Arch Linux core repo index
-INDEX_URL="https://mirrors.edge.kernel.org/archlinux/core/os/x86_64/"
+INDEX_URL="https://mirrors.edge.kernel.org/archlinux/extra/os/x86_64/"
 
 # Get the list of files from the index page, omit .sig files
 curl -s "$INDEX_URL" | grep -oP '(?<=href=")[^"]+' | grep -v '\.sig$' | while read -r filename; do
