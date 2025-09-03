@@ -65,3 +65,8 @@ core/os/x86_64/linux-firmware-marvell-20250808-1-any.pkg.tar.zst filter=lfs diff
 core/os/x86_64/linux-firmware-mellanox-20250808-1-any.pkg.tar.zst filter=lfs diff=lfs merge=lfs -text
 core/os/x86_64/linux-firmware-radeon-20250808-1-any.pkg.tar.zst filter=lfs diff=lfs merge=lfs -text
 core/os/x86_64/base-3-2-any.pkg.tar.zst filter=lfs diff=lfs merge=lfs -text
+core/os/x86_64/autoconf-2.72-1-any.pkg.tar.zst filter=lfs diff=lfs merge=lfs -text
+core/os/x86_64/base-devel-1-2-any.pkg.tar.zst filter=lfs diff=lfs merge=lfs -text
+core/os/x86_64/make-4.4.1-2-x86_64.pkg.tar.zst filter=lfs diff=lfs merge=lfs -text
+core/os/x86_64/sudo-1.9.17.p2-1-x86_64.pkg.tar.zst filter=lfs diff=lfs merge=lfs -text
+core/os/x86_64/which-2.23-1-x86_64.pkg.tar.zst filter=lfs diff=lfs merge=lfs -text
